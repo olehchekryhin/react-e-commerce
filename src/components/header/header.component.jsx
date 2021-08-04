@@ -11,8 +11,6 @@ import { selectCardHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 import { signOutStart } from "../../redux/user/user.actions";
 
-import { auth } from '../../firebase/firebase.utils';
-
 import './header.styles.scss';
 
 const Header = ({currentUser, hidden, signOutStart}) => (
